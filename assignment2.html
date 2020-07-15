@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 Assignment 2</title>
+</head>
+<body>
+<h1>see the all the operation on console press F12</h1>
+</body>
+<script>
+//String 
+var p='pankaj jaiswal'
+var s=p.replace('p','o')//replace function will replace the value given as first argument with second argument in an string
+var s3=p.trim()//it is used to remove the whitespace between words in an string
+console.log(s)
+console.log(s3)
+console.log(p.length)//length will calculate the total no.of alphabet in an string
+console.log(p.search('w'))//it return the index of the variable 
+console.log(p.substring(1,5)) // this  method extracts the character from string betweeen two specified argument 
+//Array 
+namearr=['pankaj','siddhiraj','omkar','sahil','saikiran']
+console.log(Array.isArray(namearr))
+ console.log(Array.length)//it return total no.of array in an document
+console.log(namearr.reverse())//it is use to reverse the sequence of element in an array
+var ins=namearr.push('Gauri')//it is used to insert element at the end of the array
+console.log(namearr)
+delete namearr[0]//it is used to delete element of the  specified index element 
+console.log(`After deleting: `,namearr)
+console.log(namearr.splice(1,2))// the first parameter (0) defines the position where new element should be added 
+// the second parameter (4) defines how many element should be removed
+console.log(namearr)
+</script>
+</html>
